@@ -25,5 +25,8 @@
     "bumpp": "^8.2.1",
     "microbundle": "^0.15.1",
     "typescript": "^4.8.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
