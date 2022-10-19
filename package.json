@@ -1,0 +1,29 @@
+{
+  "name": "versioned-function",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "bump": "bumpp"
+  },
+  "repository": "git@github.com:NWylynko/versioned-function.git",
+  "author": "Nick Wylynko <nick@wylynko.com>",
+  "license": "MIT",
+  "type": "module",
+  "source": "./src/index.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "umd:main": "./dist/index.umd.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/index.umd.js",
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "microbundle": "^0.15.1",
+    "typescript": "^4.8.4"
+  }
+}
